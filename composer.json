@@ -1,0 +1,25 @@
+{
+    "name": "solidbase/magento2-base",
+    "description": "Base module for SolidBase extensions.",
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": [
+        "proprietary"
+    ],
+    "authors":[
+        {
+            "name":"Daniel R. Azulay",
+            "email":"daniel@danielazulay.eu"
+        }
+    ],
+    "require": {
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "SolidBase\\Base\\": ""
+        }
+    }
+}

@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="SolidBase_Base::menu"
+             module="SolidBase_Base"
+             resource="SolidBase_Base::solidbase_config"
+             sortOrder="10"
+             title="SolidBase"/>
+        <add id="SolidBase_Base::config"
+             action="adminhtml/system_config/edit/section/solidbase/modules_enabled"
+             module="SolidBase_Base"
+             parent="SolidBase_Base::menu"
+             resource="SolidBase_Base::solidbase_config"
+             sortOrder="20"
+             title="Configuration"/>
+    </menu>
+</config>
